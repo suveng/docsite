@@ -19,6 +19,15 @@
         "keywords": "git",
         "description": "git flow工作流程"
       }
+    },
+    {
+      "filename": "index.md",
+      "link": "/zh-cn/docs/index.html",
+      "meta": {
+        "title": "向导",
+        "keywords": "index",
+        "description": "向导"
+      }
     }
   ]
 }
