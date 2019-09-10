@@ -5,65 +5,6 @@ export default {
   domain: 'suveng.github.io', // 站点部署域名，无需协议和path等
   defaultSearch: 'baidu', // 默认搜索引擎，baidu或者google
   defaultLanguage: 'zh-cn',
-  'en-us': {
-    pageMenu: [
-      {
-        key: 'home', // 用作顶部菜单的选中
-        text: 'HOME',
-        link: '/en-us/index.html',
-      },
-      {
-        key: 'docs',
-        text: 'DOCS',
-        link: '/en-us/docs/index.html',
-      },
-      {
-        key: 'blog',
-        text: 'BLOG',
-        link: '/en-us/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: '/en-us/community/index.html',
-      },
-    ],
-    disclaimer: {
-      title: 'Disclaimer',
-      content: 'the disclaimer content',
-    },
-    documentation: {
-      title: 'Documentation',
-      list: [
-        {
-          text: 'Overview',
-          link: '/en-us/docs/index.html',
-        },
-        {
-          text: 'Quick start',
-          link: '/en-us/docs/index.html',
-        },
-        {
-          text: 'Developer guide',
-          link: '/en-us/docs/dir/index.html',
-        },
-      ],
-    },
-    resources: {
-      title: 'Resources',
-      list: [
-        {
-          text: 'Blog',
-          link: '/en-us/blog/index.html',
-        },
-        {
-          text: 'Community',
-          link: '/en-us/community/index.html',
-        },
-      ],
-    },
-    copyright: 'Copyright © 2019',
-  },
   'zh-cn': {
     pageMenu: [
       {
@@ -89,7 +30,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: '博客搭建来源于GitHub page, 由docsite组件支持',
     },
     documentation: {
       title: '文档',
@@ -101,10 +42,6 @@ export default {
         {
           text: '快速开始',
           link: '/zh-cn/docs/index.html',
-        },
-        {
-          text: '开发者指南',
-          link: '/zh-cn/docs/dir/demo3.html',
         },
       ],
     },
@@ -123,4 +60,60 @@ export default {
     },
     copyright: 'Copyright © 2019',
   },
+  'en-us': {
+    pageMenu: [
+      {
+        key: 'home',
+        text: '首页',
+        link: '/zh-cn/index.html',
+      },
+      {
+        key: 'docs',
+        text: '文档',
+        link: '/zh-cn/docs/index.html',
+      },
+      {
+        key: 'blog',
+        text: '博客',
+        link: '/zh-cn/blog/index.html',
+      },
+      {
+        key: 'community',
+        text: '社区',
+        link: '/zh-cn/community/index.html',
+      },
+    ],
+    disclaimer: {
+      title: '免责声明',
+      content: '博客搭建来源于GitHub page, 由docsite组件支持',
+    },
+    documentation: {
+      title: '文档',
+      list: [
+        {
+          text: '概览',
+          link: '/zh-cn/docs/index.html',
+        },
+        {
+          text: '快速开始',
+          link: '/zh-cn/docs/index.html',
+        },
+      ],
+    },
+    resources: {
+      title: '资源',
+      list: [
+        {
+          text: '博客',
+          link: '/zh-cn/blog/index.html',
+        },
+        {
+          text: '社区',
+          link: '/zh-cn/community/index.html',
+        },
+      ],
+    },
+    copyright: 'Copyright © 2019',
+  },
+
 };

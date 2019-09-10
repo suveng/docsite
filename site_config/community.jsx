@@ -2,69 +2,27 @@ import React from 'react';
 
 export default {
   'en-us': {
-    barText: 'Community',
+    barText: '社区',
     events: {
-      title: 'Events & News',
+      title: '事件 & 新闻',
       list: [
         {
           img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
+          title: '这是标题',
+          content: '这是内容',
           dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog1.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog2.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog3.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog4.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog5.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog6.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog7.html',
+          link: '/zh-cn/blog/blog1.html',
         },
       ]
     },
     contacts: {
-      title: 'Talk To Us',
-      desc: 'Feel free to contact us via the following channel.',
+      title: '联系我们',
+      desc: '有问题需要反馈？请通过一下方式联系我们。',
       list: [
         {
           img: '/img/mailinglist.png',
           imgHover: '/img/mailinglist_hover.png',
-          title: 'Mailing List',
+          title: '邮件列表',
           link: ''
         },
         {
@@ -82,82 +40,82 @@ export default {
         {
           img: '/img/weibo.png',
           imgHover: '/img/weibo_hover.png',
-          title: 'weibo',
+          title: '微博',
           link: '',
         },
       ],
     },
     contributorGuide: {
-      title: 'Contributor Guide',
-      desc: 'some description',
+      title: '贡献指南',
+      desc: '一些描述',
       list: [
         {
           img: '/img/mailinglist.png',
-          title: 'Mailing List',
-          content: <span>this is the content</span>,
+          title: '邮件列表',
+          content: <span>这是描述</span>,
         },
         {
           img: '/img/issue.png',
-          title: 'Issue',
-          content: <span>this is the content</span>,
+          title: '报告缺陷',
+          content: <span>这是描述</span>,
         },
         {
           img: '/img/documents.png',
-          title: 'Documents',
-          content: <span>this is the content</span>,
+          title: '文档',
+          content: <span>这是描述</span>,
         },
         {
           img: '/img/pullrequest.png',
           title: 'Pull Request',
-          content: <span>this is the content</span>,
+          content: <span>这是描述</span>,
         },
       ],
     },
     ecos: {
-      title: 'Eco System',
+      title: '生态系统',
       list: [
         {
-          title: 'Eco1',
-          content: <span>Eco System1</span>,
+          title: '生态系统1',
+          content: <span>生态系统1</span>,
           tags: [
             {
-              text: 'tag1',
+              text: '标签1',
               link: '',
               bgColor: '#7A63FC',
             },
             {
-              text: 'tag2',
+              text: '标签2',
               link: '',
               bgColor: '#00D0D9',
             },
             {
-              text: 'tag3',
+              text: '标签3',
               link: '',
               bgColor: '#00D0D9',
             },
           ],
         },
         {
-          title: 'Eco2',
-          content: <span>Eco System2</span>,
+          title: '生态系统2',
+          content: <span>生态系统2</span>,
           tags: [
             {
-              text: 'tag1',
+              text: '标签1',
               link: '',
               bgColor: '#7A63FC',
             },
             {
-              text: 'tag2',
+              text: '标签2',
               link: '',
               bgColor: '#00D0D9',
             },
             {
-              text: 'tag3',
-              link: '/en-us/docs/demo1.html',
+              text: '标签3',
+              link: '/zh-cn/docs/demo1.html',
               bgColor: '#00D0D9',
             },
             {
-              text: 'tag4',
+              text: '标签4',
               link: '',
               bgColor: '#00D0D9',
             },
@@ -177,48 +135,6 @@ export default {
           content: '这是内容',
           dateStr: 'May 12nd，2018',
           link: '/zh-cn/blog/blog1.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog2.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog3.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog4.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog5.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog6.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog7.html',
         },
       ]
     },
